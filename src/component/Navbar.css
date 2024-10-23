@@ -1,0 +1,54 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+  }
+  
+  .nav-logo-container {
+    float: left;
+  }
+  
+  .navbar-links-container {
+    display: inline-block;
+    margin-left: 50px;
+  }
+  
+  .navbar-links-container a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .navbar-links-container a:hover {
+    color: #007BFF;
+  }
+  
+  .navbar-cart-icon {
+    font-size: 24px;
+    vertical-align: middle;
+  }
+  
+  .primary-button {
+    margin-left: 10px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .primary-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add margin-top to the rest of the content to prevent overlapping */
+  .App > div {
+    margin-top: 80px; /* Adjust this value based on the height of your navbar */
+  }
+  
