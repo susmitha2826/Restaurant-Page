@@ -14,6 +14,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
+import WorkIcon from "@mui/icons-material/Work";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
@@ -34,6 +35,11 @@ const Navbar = () => {
       text: "About",
       icon: <InfoIcon />,
       link: "#about", // Add the link to the section
+    },
+    {
+      text: "Work",
+      icon: <WorkIcon />,
+      link: "#Work", // Add the link to the section
     },
     {
       text: "Testimonials",
@@ -59,12 +65,13 @@ const Navbar = () => {
       <div className="navbar-links-container">
         <a onClick={() => scrollToSection("home")}>Home</a>
         <a onClick={() => scrollToSection("about")}>About</a>
+        <a onClick={() => scrollToSection("Work")}>How It Works</a>
         <a onClick={() => scrollToSection("testimonials")}>Testimonials</a>
         <a onClick={() => scrollToSection("contact")}>Contact</a>
         <a>
           <BsCart2 className="navbar-cart-icon" />
         </a>
-        <button className="primary-button">Bookings Now</button>
+        {/* <button className="primary-button">Bookings Now</button> */}
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

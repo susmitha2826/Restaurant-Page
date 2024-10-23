@@ -8,17 +8,17 @@ const Work = () => {
     {
       image: PickMeals,
       title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      text: "Choose from a variety of delicious meals that suit your taste. We offer a range of options to satisfy your cravings and make meal planning easy.",
     },
     {
       image: ChooseMeals,
       title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      text: "Decide how frequently you’d like to receive your meals. Whether you prefer daily, weekly, or another schedule, we can accommodate your needs.",
     },
     {
       image: DeliveryMeals,
       title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      text: "Enjoy quick and reliable delivery right to your door. Our team ensures that your meals arrive fresh and on time, so you can enjoy hassle-free dining.",
     },
   ];
   return (
@@ -27,8 +27,8 @@ const Work = () => {
         <p className="primary-subheading">Work</p>
         <h1 className="primary-heading">How It Works</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        This is how it works: we prioritize hygiene by implementing touchless solutions 
+        that ensure a clean and safe experience while delivering the highest quality service.
         </p>
       </div>
       <div className="work-section-bottom">
